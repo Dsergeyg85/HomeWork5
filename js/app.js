@@ -1,4 +1,5 @@
 (async () => {
+<<<<<<< HEAD
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(position => {
             const coordsEl = document.querySelector('#user-coords');
@@ -25,4 +26,7 @@
             earlyorderContact.value = '';
         }, 500);
     });
+=======
+    // TODO: add custom logic here
+>>>>>>> origin/main
 })();
